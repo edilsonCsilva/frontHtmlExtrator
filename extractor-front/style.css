@@ -176,3 +176,9 @@ a:visited , a:active{
     height: 12rem;
     object-fit: cover;
 }
+
+.input{
+    text-indent: .3rem;
+    font-size: large;
+    height: 3rem;
+}
