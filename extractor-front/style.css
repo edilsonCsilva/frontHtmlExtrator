@@ -1,0 +1,178 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+a:visited , a:active{
+    background:none;
+}
+
+
+.anl-htT-1{
+    position: relative;
+    width:90%;
+    margin: 0 auto;
+}
+
+/*centro*/
+
+ 
+
+
+/*inputText*/
+.anl-inputText{
+    position: relative;
+    padding:.5rem;
+    height: 2rem;
+    display: block;
+    width: calc(100% - 1em);
+
+}
+
+/*container*/
+.anl-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+
+
+/*container*/
+
+
+/*anl-form"*/
+
+.anl-form{
+    position: relative;
+    min-width: 30vw;
+    min-height: 50vh;
+    width:97%;
+    height: auto;
+   
+    background-color: aliceblue;
+    border-radius: .3rem;
+    box-shadow: 1px 10px 2px #000;
+    margin: 10% auto;
+    
+    
+    
+}
+
+
+
+/*anl-form"*/
+
+
+/*anlform-title*/
+
+.anlform-title{
+    position: relative;
+    height: 4rem;
+   
+    line-height: 4rem;
+    overflow: hidden;
+    text-align: left;
+    margin-left: 2REM;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.anl-formLogin{
+    position: relative;
+    top:.5rem;
+    width: 25rem;
+    margin: 0 auto;
+}
+
+
+.anl-form-control{
+   
+    display: block;
+    padding: .5rem;
+    margin-bottom: .5rem;    
+}
+
+.anl-form-control label,.anl-form-control input[type="text"]{
+    display: block;
+    padding: .3rem;
+    
+}
+
+.anl-form-control input[type="text"]{
+    margin-left: .3rem;
+    width: calc(100% - 3rem);
+}
+
+.anl-form-control input[type="checkbox"]{
+    margin-left: .3rem;
+    
+}
+
+
+.anl-form-control button{
+   
+    width: 99%;
+    height: 2rem;
+    margin-left:.3rem;
+    margin-bottom: .5rem;
+    background-color: #3D9DB3;
+    width: calc(100% - 3rem);
+}
+
+.anl-footer{
+    position: relative;
+    background-color: #E1EAEB;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+    
+}
+
+.anl-footerInfor{
+    position: relative;
+    padding: .7rem;
+    text-align: center;
+    border-radius: .3rem;
+
+}
+.anl-link{
+    position: relative;
+    padding: 1rem;
+    color: red;
+
+    
+}
+
+
+
+.form-login{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qr,.logo{
+    display: flex;
+    width: 50%;
+    background-color: #000;
+}
+
+.avatar{
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+}

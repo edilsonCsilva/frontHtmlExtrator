@@ -1,0 +1,41 @@
+@media (min-width:500px){
+	/* Estilizações CSS */
+
+    .anl-form{
+        position: relative;
+        min-width: 27vw;
+        min-height: 50vh;
+        width:20%;
+        height: auto;
+       
+        background-color: aliceblue;
+        border-radius: .3rem;
+        box-shadow: 1px 10px 2px #000;
+        margin: 10% auto;
+       
+        
+        
+    }
+
+}
+
+
+@media all and (min-width: 700px)  {
+	/* Estilizações CSS */
+
+    .anl-form{
+        position: relative;
+        min-width: 27vw;
+        min-height: 50vh;
+        width:40%;
+        height: auto;
+       
+        background-color: aliceblue;
+        border-radius: .3rem;
+        box-shadow: 1px 10px 2px #000;
+        margin: 5% auto;
+      
+        
+    }
+
+}
