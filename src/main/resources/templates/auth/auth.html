@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <link th:href="@{/styles/cssandjs/style.css}" rel="stylesheet" />
+     <link th:href="@{/styles/cssandjs/snackbar.css}" rel="stylesheet" />
+     <link th:href="@{/styles/cssandjs/adapter.css}" rel="stylesheet" />
+  
+</head>
+
+<body>
+    <div class="anl-container">
+        <form action="authsetting.html" method="post">
+            <div class="anl-form ">
+                <div class="anlform-title">
+                    <h3>Configurações </h3>
+                </div>
+                <hr class="anl-htT-1">
+                <div class="anl-formLogin">
+                    <div class="anl-form-control">
+                        <label for="email">CPF/CNPJ</label>
+                        <input type="text" class="input" name="" id="" placeholder="">
+                    </div>
+                </div>
+                <div class="anl-formLogin">
+                    <div class="anl-form-control">
+                        <button onclick="myFunction()">Continuar</button>
+
+                    </div>
+                </div>
+
+
+                <div class="anl-formLogin anl-footer">
+                    <hr>
+
+                    <div class="anl-footerInfor">
+
+                        <p><a href="https://copyrightservice.net/pt/copyright_notice"
+                                title="Avisos de direitos autorais">
+                                Avisos de direitos autorais</a> -
+                            &copy;AnalisticsData.com
+
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </form>
+
+
+
+
+
+
+
+    </div>
+
+
+    <div id="snackbar">Usuario Invalido</div>
+
+    <script>
+        function myFunction() {
+            // Get the snackbar DIV
+            var x = document.getElementById("snackbar");
+
+            // Add the "show" class to DIV
+            x.className = "show";
+
+            // After 3 seconds, remove the show class from DIV
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        }
+
+    </script>
+
+</body>
+
+</html>
